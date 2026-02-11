@@ -56,7 +56,7 @@ function loadScene()
     // Y (altura): sube una unidad de 'peldañoAlto' por cada peldaño
     // Z (profundidad): avanza una unidad de 'peldañoFondo' por cada peldaño
     let y = i * peldañoAlto;
-    let z = i * peldañoFondo;
+    let z = -i * peldañoFondo;
     
     peldaño.position.set(0, y, z);
     scene.add(peldaño);
